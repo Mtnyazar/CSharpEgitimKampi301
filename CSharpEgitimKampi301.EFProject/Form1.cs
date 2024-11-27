@@ -51,6 +51,16 @@ namespace CSharpEgitimKampi301.EFProject
 
         private void btnUpdate_Click(object sender, EventArgs e)
         {
+            int id = int.Parse(txtId.Text);
+            var updateValue = db.Guide.Find(id);
+            updateValue.GuideName = txtName.Text;
+            updateValue.GuideSurname = txtSurname.Text;
+            var values = db.Guide.ToList();
+            dataGridView1.DataSource = values;
+
+            db.SaveChanges();
+            MessageBox.Show("Başarıyla Güncellendi.","Uyarı",MessageBoxButtons.OK,MessageBoxIcon.Warning);
+
 
         }
 
@@ -59,6 +69,13 @@ namespace CSharpEgitimKampi301.EFProject
             var values = db.Guide.ToList();
             dataGridView1.DataSource = values;
             db.SaveChanges();
+        }
+
+        private void btnGetById_Click(object sender, EventArgs e)
+        {
+            int id= int.Parse(txtId.Text);
+            var values = db.Guide.Where(x =>x.GuideId==id).ToList();
+            dataGridView1.DataSource = values;
         }
     }
 }

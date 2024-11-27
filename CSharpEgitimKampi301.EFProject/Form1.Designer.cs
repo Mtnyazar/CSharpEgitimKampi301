@@ -150,6 +150,7 @@
             this.btnGetById.TabIndex = 12;
             this.btnGetById.Text = "Id\'ye Göre Getir";
             this.btnGetById.UseVisualStyleBackColor = true;
+            this.btnGetById.Click += new System.EventHandler(this.btnGetById_Click);
             // 
             // Form1
             // 
