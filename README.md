@@ -1,0 +1,2 @@
+C# 301 EĞİTİMİ İLE ENTİTY FRAMEWORK SORGULARINI KULLANARAK VERİTABANI İŞLEMLERİ GERÇEKLEŞTİRDİK. BİR NEVİ VERİ ANALİZİ ÇALIŞMASI OLDU.
+![Ekran görüntüsü 2024-11-28 115756](https://github.com/user-attachments/assets/c9f0f441-db68-48c9-9351-5e19afd09ce3)
