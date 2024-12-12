@@ -1,5 +1,5 @@
 ﻿using CSharpEgitimKampi301.BusinessLayer.Abstract;
-using CSharpEgitimKampi301.EFProject;
+using CSharpEgitimKampi301.EntityLayer.Concrete;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -10,34 +10,34 @@ namespace CSharpEgitimKampi301.BusinessLayer.Concrete
 {
     public class CustomerManager : ICustomerService
     {
-        public void TDelete(Customer entity)
+        public void TDelete(EntityLayer.Concrete.Customer entity)
         {
             throw new NotImplementedException();
         }
 
-        public List<Customer> TGetAll()
+        public List<EntityLayer.Concrete.Customer> TGetAll()
         {
             throw new NotImplementedException();
         }
 
-        public Customer TGetById(int id)
+        public EntityLayer.Concrete.Customer TGetById(int id)
         {
             throw new NotImplementedException();
         }
 
-        public void TInsert(Customer entity)
+        public void TInsert(EntityLayer.Concrete.Customer entity)
         {
-            if (entity.CustomerName!="" && entity.CustomerName.Length >=3 && entity.CustomerCity != null && entity.CustomerSurname != "" && entity.CustomerName.Length<=30)
+            if(entity.CustomerName!="" && entity.CustomerName.Length>=3 && entity.CustomerCity!=null && entity.CustomerSurname!="" && entity.CustomerName.Length <= 30)
             {
-                // EKleme işlemi Yap
+                //EKleme İşlemi Yap 
             }
             else
             {
-                // Hata Mesajı Döndür..
+                //Hata Mesajı Ver
             }
         }
 
-        public void TUpdate(Customer entity)
+        public void TUpdate(EntityLayer.Concrete.Customer entity)
         {
             throw new NotImplementedException();
         }

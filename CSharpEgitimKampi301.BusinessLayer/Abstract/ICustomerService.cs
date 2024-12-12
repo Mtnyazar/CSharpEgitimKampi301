@@ -1,4 +1,5 @@
-﻿using CSharpEgitimKampi301.EFProject;
+﻿
+using CSharpEgitimKampi301.EntityLayer.Concrete;
 using System;
 using System.Collections.Generic;
 using System.Linq;

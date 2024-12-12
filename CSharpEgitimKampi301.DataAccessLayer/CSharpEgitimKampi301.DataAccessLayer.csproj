@@ -58,6 +58,7 @@
     <Compile Include="Abstract\IOrderDal.cs" />
     <Compile Include="Abstract\IProductDal.cs" />
     <Compile Include="Context\KampContext.cs" />
+    <Compile Include="CSharpEgitimKampi301\EFProject.cs" />
     <Compile Include="EntityFramework\EfAdminDal.cs" />
     <Compile Include="EntityFramework\EfCategoryDal.cs" />
     <Compile Include="EntityFramework\EfCustomerDal.cs" />
