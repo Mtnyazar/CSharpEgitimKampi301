@@ -49,7 +49,7 @@
             this.label1.AutoSize = true;
             this.label1.Location = new System.Drawing.Point(72, 60);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(96, 20);
+            this.label1.Size = new System.Drawing.Size(77, 16);
             this.label1.TabIndex = 0;
             this.label1.Text = "Kategori Id :";
             // 
@@ -100,7 +100,7 @@
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(39, 139);
+            this.label3.Location = new System.Drawing.Point(39, 136);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(105, 16);
             this.label3.TabIndex = 6;
@@ -109,7 +109,7 @@
             // rdbActive
             // 
             this.rdbActive.AutoSize = true;
-            this.rdbActive.Location = new System.Drawing.Point(186, 139);
+            this.rdbActive.Location = new System.Drawing.Point(186, 136);
             this.rdbActive.Name = "rdbActive";
             this.rdbActive.Size = new System.Drawing.Size(53, 20);
             this.rdbActive.TabIndex = 7;
@@ -120,7 +120,7 @@
             // rdbPassive
             // 
             this.rdbPassive.AutoSize = true;
-            this.rdbPassive.Location = new System.Drawing.Point(264, 139);
+            this.rdbPassive.Location = new System.Drawing.Point(264, 136);
             this.rdbPassive.Name = "rdbPassive";
             this.rdbPassive.Size = new System.Drawing.Size(58, 20);
             this.rdbPassive.TabIndex = 8;
